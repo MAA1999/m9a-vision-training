@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['1c', '2c', '3c']
+
+roboflow:
+  workspace: m9a
+  project: stagecomplete-7hbvx
+  version: 2
+  license: BY-NC-SA 4.0
+  url: https://universe.roboflow.com/m9a/stagecomplete-7hbvx/dataset/2
