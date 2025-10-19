@@ -1,2 +1,5 @@
 config/
 debug/
+
+yolo11*.pt
+upload.py
