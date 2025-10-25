@@ -51,7 +51,8 @@ def main():
                     img = Image.fromarray(rgb_array)
                     img.save(f"{data_path}/{datetime.now().strftime('%Y%m%d_%H%M%S_%f')[:-3]}.png")
                     count += 1
-                    print(f"已截图: {count} 张")
+                    if count % 10 == 0:
+                        print(f"已截图: {count} 张")
                 if interval > 0:
                     time.sleep(interval)
         except KeyboardInterrupt:
