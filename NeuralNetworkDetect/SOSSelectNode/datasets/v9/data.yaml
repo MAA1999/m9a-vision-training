@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 13
+names: ['C', 'Conflict', 'Dangerous', 'Encounter', 'EncounterAlongTheWay', 'EntertainmentOnTheWay', 'FierceBattle', 'Message', 'RestArea', 'ShoppingOpportunity', 'TheHandOfAMasterCraftsman', 'TheOnlyWay', 'TreasureLand']
+
+roboflow:
+  workspace: m9a
+  project: sosnode-u4gzj
+  version: 9
+  license: BY-NC-SA 4.0
+  url: https://universe.roboflow.com/m9a/sosnode-u4gzj/dataset/9
