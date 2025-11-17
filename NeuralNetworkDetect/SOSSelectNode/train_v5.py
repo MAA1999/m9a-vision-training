@@ -7,7 +7,7 @@ if __name__ == '__main__':
 
     # 开始训练
     results = model.train(
-        data='datasets/v11/data.yaml',
+        data='datasets/v12/data.yaml',
         
         # 基础参数
         epochs=200,         # 小数据集需要更多轮次
@@ -48,7 +48,7 @@ if __name__ == '__main__':
         close_mosaic=10,
 
         project='runs/train',
-        name='sos_select_node_v11',
+        name='sos_select_node_v12',
         exist_ok=True,
 
         # 保存设置
