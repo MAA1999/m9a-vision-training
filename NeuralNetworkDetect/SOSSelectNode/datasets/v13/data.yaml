@@ -8,6 +8,6 @@ names: ['C', 'Conflict', 'Dangerous', 'Encounter', 'EncounterAlongTheWay', 'Ente
 roboflow:
   workspace: m9a
   project: sosnode-u4gzj
-  version: 12
+  version: 13
   license: BY-NC-SA 4.0
-  url: https://universe.roboflow.com/m9a/sosnode-u4gzj/dataset/12
+  url: https://universe.roboflow.com/m9a/sosnode-u4gzj/dataset/13
