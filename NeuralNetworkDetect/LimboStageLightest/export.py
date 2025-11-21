@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 
 if __name__ == '__main__':
-    model = YOLO('runs/train/limbo_v4/weights/best.pt')
+    model = YOLO('runs/train/limbo_v6/weights/best.pt')
 
     model.export(
         format='onnx',
