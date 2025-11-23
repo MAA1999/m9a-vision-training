@@ -7,14 +7,14 @@ if __name__ == '__main__':
 
     # 开始训练
     results = model.train(
-        data='datasets/v17/data.yaml',
+        data='datasets/v19/data.yaml',
         
         # 基础参数
         epochs=300,         # 增加训练轮次，让小样本类别有更多学习机会
         imgsz=640,
         batch=6,            # 减小 batch，增加梯度更新频率
         device=0,
-        workers=2,
+        workers=4,
         
         # 防止过拟合
         patience=80,        # 增加耐心，给小样本类别更多时间
@@ -57,7 +57,7 @@ if __name__ == '__main__':
         erasing=0.4,         # 随机擦除增强
 
         project='runs/train',
-        name='sos_select_node_v17',
+        name='sos_select_node_v19',
         exist_ok=True,
 
         # 保存设置
