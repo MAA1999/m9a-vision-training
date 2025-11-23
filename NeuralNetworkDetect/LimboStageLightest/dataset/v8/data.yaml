@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['mojing', 'mojing1', 'objects', 'people']
+
+roboflow:
+  workspace: m9a
+  project: -njzns
+  version: 8
+  license: BY-NC-SA 4.0
+  url: https://universe.roboflow.com/m9a/-njzns/dataset/8
